@@ -90,7 +90,7 @@ function renderWeatherInfo(weatherInfo){
     }else{
         cityName.innerText = weatherInfo?.name
         desc.innerText = weatherInfo?.weather?.[0]?.description
-        temp.innerText = weatherInfo?.main?.temp
+        temp.innerText = `${weatherInfo?.main?.temp}°C`
         humidity.innerText = weatherInfo?.main?.humidity
         windspeed.innerText = weatherInfo?.wind?.speed
         cloudiness.innerText = weatherInfo?.clouds?.all
