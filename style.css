@@ -20,7 +20,7 @@ body{
 
 .wrapper{
     height: 110vh;
-    width: 98.79vw;
+    width: 99.9vw;
     color: var(--colorLight2);
     background-image: linear-gradient(160deg, #112D4E 0%, #3F72AF 100%);
     overflow: hidden;
