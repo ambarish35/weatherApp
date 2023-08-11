@@ -91,9 +91,9 @@ function renderWeatherInfo(weatherInfo){
         cityName.innerText = weatherInfo?.name
         desc.innerText = weatherInfo?.weather?.[0]?.description
         temp.innerText = `${weatherInfo?.main?.temp}°C`
-        humidity.innerText = weatherInfo?.main?.humidity
-        windspeed.innerText = weatherInfo?.wind?.speed
-        cloudiness.innerText = weatherInfo?.clouds?.all
+        humidity.innerText = `${weatherInfo?.main?.humidity}%`
+        windspeed.innerText = `${weatherInfo?.wind?.speed}m/s`
+        cloudiness.innerText = `${weatherInfo?.clouds?.all}%`
         countryIcon.src = `https://flagcdn.com/144x108/${weatherInfo?.sys?.country.toLowerCase()}.png`
         weatherIcon.src = `https://openweathermap.org/img/w/${weatherInfo?.weather?.[0]?.icon}.png`
     }
