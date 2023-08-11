@@ -265,7 +265,7 @@ h1{
     background: #444;
 }
 
-@media screen and (width<=540px) and (orientation:potrait){
+@media screen and (width<=540px){
     .parameter p:first-of-type{
         font-size: 1rem;
         font-weight: 400;
@@ -279,7 +279,7 @@ h1{
     }
 }
 
-@media screen and (width<=400px) and (orientation:potrait) {
+@media screen and (width<=400px){
     .parameter p:first-of-type {
         font-size: 0.8rem;
         font-weight: 600;
